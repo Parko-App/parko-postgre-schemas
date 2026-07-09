@@ -1,0 +1,2 @@
+ALTER TABLE users DROP COLUMN password_hash;
+ALTER TABLE users ADD COLUMN firebase_uid VARCHAR(255) NOT NULL UNIQUE;
